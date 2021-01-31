@@ -99,7 +99,7 @@ function weatherSearch(event) {
     // console.log("Hi");
     getWeather(textData)
 
-    
+
 }
 
 function fiveDayForecast(cityName) {
@@ -134,21 +134,21 @@ function fiveDayForecast(cityName) {
 
 // Aiming for UV AJAX "crosses fingers"
 
-function getUV (lat, long) {
+function getUV(lat, long) {
 
-const UV = `https://api.openweathermap.org/data/2.5/uvi?appid=b8ecb570e32c2e5042581abd004b71bb&lat=${lat}&lon=${long}&appip=${apiKey}`;
+    const UV = `https://api.openweathermap.org/data/2.5/uvi?appid=b8ecb570e32c2e5042581abd004b71bb&lat=${lat}&lon=${long}&appip=${apiKey}`;
 
-//Typical AJAX
-$.ajax({
-    url: UV,
-    method: "GET"
-}).then(function (response) {
-    console.log(response);
-    
-    //Same principle as the temp, humidity, and wind speed 
-    const todaysUV = $("<p>").text("UV Index: " + response.value).addClass("weather-card");
-    currentWeatherDiv.append(todaysUV);
-    // todaysUV.addClass("todayUV");
-    // currentTemp.append(currendUV);
-});
+    //Typical AJAX
+    $.ajax({
+        url: UV,
+        method: "GET"
+    }).then(function (response) {
+        console.log(response);
+
+        //Same principle as the temp, humidity, and wind speed 
+        const todaysUV = $("<p>").text("UV Index: " + response.value).addClass("weather-card");
+        currentWeatherDiv.append(todaysUV);
+        // todaysUV.addClass("todayUV");
+        // currentTemp.append(currendUV);
+    });
 }

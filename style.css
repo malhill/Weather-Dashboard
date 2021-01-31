@@ -3,17 +3,41 @@ body {
     background-color:  lightblue;
 }
 
-footer {
-    text-align: center;
-    bottom: 0;    
+
+#css-input {
+    width: px;
 }
 
 #weather-card {
+    position: absolute;
+}
+
+#css-weather {
+    position: ;
+}
+footer {
+    text-align: center;
+    bottom: 0;  
+    position: absolute;  
+}
+
+#current-weather  {
     display: flex;
     flex-direction: row;
+    background-color: rgb(95, 95, 224);
 }
 
 .fiveDayColor {
     margin: 10px;  
     display: inline-block;
+    background-color: rgb(95, 95, 224);
+}
+
+/* Seperating the background colors so I can visually see the divs */
+#search-cities {
+    background-color: seagreen;
+}
+
+#list {
+    background-color: sienna;
 }
