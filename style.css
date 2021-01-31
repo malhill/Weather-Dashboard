@@ -7,3 +7,13 @@ footer {
     text-align: center;
     bottom: 0;    
 }
+
+#weather-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.fiveDayColor {
+    margin: 10px;  
+    display: inline-block;
+}
