@@ -1,0 +1,9 @@
+/* testing connection to HTML*/
+body {
+    background-color:  lightblue;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;    
+}
