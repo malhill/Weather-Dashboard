@@ -3,7 +3,9 @@ body {
     background-color:  lightblue;
 }
 
-
+h1 {
+    text-align: center;
+}
 #css-input {
     width: px;
 }
@@ -36,8 +38,4 @@ footer {
 /* Seperating the background colors so I can visually see the divs */
 #search-cities {
     background-color: seagreen;
-}
-
-#list {
-    background-color: sienna;
 }
