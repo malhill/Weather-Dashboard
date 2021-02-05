@@ -8,6 +8,26 @@ const searchBar = $("#list");
 let searchHistory = "";
 let currentWeatherDiv = $('#current-weather')
 
+// Will use for keycode #13 
+// function daySaver(event) {
+//   // stop search unless user presses the Enter key. The Keycode for "enter" is the numer 13 - thanks Jess!
+//   if (event.keyCode === 13 || event.target.matches(".saveBtn")) {
+//     var userInfo = $(event.target).parent().attr("id");
+//     console.log(event.target);
+//     var userText = $(event.target).siblings("textarea").val();
+//     if (event.keyCode === 13) {
+//     userText = $(event.target).val();
+//     }
+//     localStorage.setItem(userInfo, userText);
+//     console.log(userInfo);
+//     console.log(userText);
+//   } else {
+//     return;
+//   }
+// }
+// $(".saveBtn").on("click", daySaver);
+// $("textarea").on("keyup", daySaver);
+
 //Testing LocalStorage 
 $("#city-click").on("click", function (event) {
     event.preventDefault();

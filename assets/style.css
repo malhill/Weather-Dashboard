@@ -1,30 +1,51 @@
 /* testing connection to HTML*/
 body {
+    position: relative;
+    min-height: 100vh;
     background-color:  lightblue;
 }
 
+/* Header */
 h1 {
+    background-color: red;
     text-align: center;
 }
+
+
+/* Search Bar and button  */
 #css-input {
-    width: px;
+    background-color: seagreen;
 }
 
+#search-cities {
+    background-color: orange;
+}
+
+#city-click {
+    background-color: orangered;
+}
+
+/* Current Weather  */
 #weather-card {
+    background-color: yellow;
     position: absolute;
 }
 
 #css-weather {
-    position: ;
+    position: relative;
 }
-footer {
-    text-align: center;
+
+#footer {
+    position: fixed;
     bottom: 0;  
-    position: absolute;  
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    background-color: purple;
 }
 
 #current-weather  {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     background-color: rgb(95, 95, 224);
 }
@@ -33,9 +54,4 @@ footer {
     margin: 10px;  
     display: inline-block;
     background-color: rgb(95, 95, 224);
-}
-
-/* Seperating the background colors so I can visually see the divs */
-#search-cities {
-    background-color: seagreen;
 }

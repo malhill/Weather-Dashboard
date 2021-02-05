@@ -1,4 +1,7 @@
 # Weather-Dashboard
+
+![alt text](./assets/ "Weather App")
+
 The goal here is to use multiple API's (5 day forecast, UV, and Current day) to have a function weather app.
 * [Github Repository] (https://github.com/malhill/Weather-Dashboard)
 * [Weather App] (https://malhill.github.io/Weather-Dashboard/)
