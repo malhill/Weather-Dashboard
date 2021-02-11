@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
-![alt text](./assets/ "Weather App")
+![alt text](./assets/capture.PNG "Weather App")
 
 The goal here is to use multiple API's (5 day forecast, UV, and Current day) to have a function weather app.
 * [Github Repository] (https://github.com/malhill/Weather-Dashboard)
