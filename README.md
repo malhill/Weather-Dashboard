@@ -1,4 +1,4 @@
-# <center> Weather-Dashboard
+# <center>Weather-Dashboard
 
 ![alt text](./assets/capture.PNG "Weather App")
 
